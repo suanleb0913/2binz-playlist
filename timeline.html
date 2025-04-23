@@ -1,0 +1,146 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>2binz Timeline</title>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Quicksand', sans-serif;
+      background: #fefcf7;
+      color: #333;
+      display: flex;
+    }
+
+    .sidebar {
+      width: 240px;
+      background: #cde6f9;
+      padding: 20px;
+      height: 100vh;
+      overflow-y: auto;
+      position: sticky;
+      top: 0;
+      box-shadow: 2px 0 8px rgba(0, 0, 0, 0.05);
+    }
+
+    .sidebar h2 {
+      font-size: 18px;
+      margin-bottom: 15px;
+    }
+
+    .sidebar details {
+      margin-bottom: 14px;
+    }
+
+    .sidebar summary {
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .sidebar a {
+      display: block;
+      margin-left: 20px;
+      margin-top: 6px;
+      text-decoration: none;
+      color: #204e82;
+      font-size: 14px;
+    }
+
+    .sidebar a:hover {
+      text-decoration: underline;
+    }
+
+    .timeline {
+      flex: 1;
+      padding: 40px;
+    }
+
+    .month-section {
+      margin-bottom: 60px;
+    }
+
+    .month-section h3 {
+      font-size: 26px;
+      color: #3b5b84;
+      margin-bottom: 30px;
+    }
+
+    .entry {
+      background: white;
+      border-radius: 20px;
+      padding: 20px 24px;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+      margin-bottom: 30px;
+      max-width: 600px;
+      position: relative;
+      border-left: 6px solid #fff4b3;
+    }
+
+    .entry-date {
+      font-size: 14px;
+      color: #888;
+      margin-bottom: 10px;
+    }
+
+    .entry-text {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    .entry img {
+      margin-top: 12px;
+      max-width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+  </style>
+</head>
+<body>
+  <div class="sidebar">
+    <h2>📘 Index</h2>
+    <a href="#start">我们的开始</a>
+    <details>
+      <summary>2023年</summary>
+      <a href="#y2023m1">1月</a><a href="#y2023m2">2月</a><a href="#y2023m3">3月</a><a href="#y2023m4">4月</a>
+      <a href="#y2023m5">5月</a><a href="#y2023m6">6月</a><a href="#y2023m7">7月</a><a href="#y2023m8">8月</a>
+      <a href="#y2023m9">9月</a><a href="#y2023m10">10月</a><a href="#y2023m11">11月</a><a href="#y2023m12">12月</a>
+    </details>
+    <details>
+      <summary>2024年</summary>
+      <a href="#y2024m1">1月</a><a href="#y2024m2">2月</a><a href="#y2024m3">3月</a><a href="#y2024m4">4月</a>
+      <a href="#y2024m5">5月</a><a href="#y2024m6">6月</a><a href="#y2024m7">7月</a><a href="#y2024m8">8月</a>
+      <a href="#y2024m9">9月</a><a href="#y2024m10">10月</a><a href="#y2024m11">11月</a><a href="#y2024m12">12月</a>
+    </details>
+    <details open>
+      <summary>2025年</summary>
+      <a href="#y2025m1">1月</a><a href="#y2025m2">2月</a><a href="#y2025m3">3月</a><a href="#y2025m4">4月</a>
+    </details>
+  </div>
+  <div class="timeline">
+    <div class="month-section" id="y2025m4">
+      <h3>🌸 2025年4月</h3>
+
+      <div class="entry">
+        <div class="entry-date">2025.04.18</div>
+        <div class="entry-text">
+          和你一起去了演唱会。人群中我不想拍舞台，只想拍你。
+          <img src="your-photo1.jpg" alt="Concert moment">
+        </div>
+      </div>
+
+      <div class="entry">
+        <div class="entry-date">2025.04.19</div>
+        <div class="entry-text">
+          回程地铁上你困到头靠在我肩上，耳机里是我们单曲循环的《ice cream》。
+        </div>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
