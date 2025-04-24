@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+
+<style>
+@font-face {
+  font-family: 'WenKaiMono';
+  src: url('./fonts/LXGWWenKaiMono-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+* {
+  font-family: 'WenKaiMono', sans-serif !important;
+}
+</style>
+
+
+<style>
+@font-face {
+  font-family: 'WenKaiMono';
+  src: url('./fonts/LXGWWenKaiMono-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+body {
+  font-family: 'WenKaiMono', sans-serif;
+}
+</style>
+
+  <meta charset="UTF-8">
+  <title>2binz Timeline</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Helvetica Neue', sans-serif;
+      background-color: #fefcf7;
+      display: flex;
+    }
+    aside {
+      width: 200px;
+      background-color: #e8f1fa;
+      padding: 20px;
+      box-shadow: 2px 0 5px rgba(0,0,0,0.05);
+    }
+    aside h2 {
+      font-size: 20px;
+      color: #2a4c6b;
+      margin-bottom: 12px;
+    }
+    .year-label {
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #37597c;
+    }
+    .month-list {
+      padding-left: 10px;
+      list-style: none;
+      margin: 0;
+    }
+    .month-list li {
+      padding: 5px 0;
+      color: #4a6b85;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    .month-list li:hover {
+      color: #1c3c58;
+      font-weight: bold;
+      transform: translateX(3px);
+    }
+
+    main {
+      flex: 1;
+      padding: 40px 20px;
+    }
+    .title {
+      font-size: 2rem;
+      font-weight: 800;
+      text-align: center;
+      font-family: "Courier New", monospace;
+      letter-spacing: 1px;
+      color: #2a4c6b;
+      margin-bottom: 40px;
+    }
+    .entry-block {
+      background-color: #ffffff;
+      border-radius: 12px;
+      padding: 16px;
+      margin-bottom: 24px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .entry-date {
+      font-size: 1.1rem;
+      color: #8c9baa;
+      margin-bottom: 12px;
+    }
+    .entry-text {
+      white-space: pre-line;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+  <aside>
+    <h2>📆 索引</h2>
+    <div class="year-label">2025年</div>
+    <ul class="month-list">
+      <li>1月</li>
+      <li>2月</li>
+      <li>3月</li>
+      <li>4月</li>
+    </ul>
+  </aside>
+  <main>
+    <div class="title">2binz Timeline</div>
+    <div id="timeline">
+
+      <section data-date="2025-04-01" class="entry-block">
+        <h3 class="entry-date">2025.04.01</h3>
+        <p class="entry-text">
+【anan五月刊】奎彬提及韩彬：<br>
+“对我来说最有效的舒压方式是和韩彬xi一起出门吃饭。一天至少要一起吃一顿饭，不然我会出现戒断症状（笑）。<br>
+从《BOYS PLANET》时期开始，我就一直受到韩彬哥很多帮助，最近我也终于有了能为他付出的时刻。<br>
+之前他从清晨到深夜都有单独行程，看起来很辛苦，我就把一些想法写下来，在他睡前发给他，<br>
+第二天早上，他就会带着很开心的表情来抱我。说不定是因为我，他才又有了干劲（笑）。”
+        </p>
+      </section>
+
+    </div>
+  </main>
+</body>
+</html>
